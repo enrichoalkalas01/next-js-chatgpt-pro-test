@@ -5,6 +5,7 @@ import DashboardInfoCard from '@/components/DashboardInfoCard';
 import RecentActivity from '@/components/RecentActivity';
 import TrafficChannel from '@/components/TrafficChannel';
 import RevenueChart from '@/components/RevenueChart';
+import ProgressBars from '@/components/ProgressBar';
 
 export default function Home() {
     return (
@@ -28,6 +29,9 @@ export default function Home() {
                     <div className="px-4 lg:col-span-1 mt-8">
                         <TrafficChannel />
                     </div>
+                </div>
+                <div className='bg-white rounded-md shadow-md mt-4'>
+                    <ProgressBars />
                 </div>
             </div>
         </div>
